@@ -85,7 +85,7 @@ codi-editor[language=javascript]::after {
                         'editor-css . editor-preview';
   grid-template-columns: 1fr 5px 1fr;
   grid-template-rows: 1fr 5px 1fr;
-  height: 100vh;
+  height: calc(100vh - 42px);
 
   &[data-layout="layout-2"] {
     grid-template-areas: 'editor-html . editor-css'

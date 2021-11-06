@@ -17,6 +17,7 @@ import { BUTTON_ACTIONS } from './constants/button-actions.js'
 
 import './components/layout-preview/layout-preview.js'
 import './components/codi-editor/codi-editor.js'
+import './components/code-tabs'
 
 const { layout: currentLayout } = getState()
 
